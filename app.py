@@ -4,6 +4,6 @@ response = client.run_instances(
     ImageId ='ami-0453ec754f44f9a4a',
     InstanceType = 't2.micro',
     KeyName='pem',
-    MaxCount=1,
+    MaxCount=2,
     MinCount=1,
 )
